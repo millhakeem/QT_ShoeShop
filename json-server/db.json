@@ -4,19 +4,22 @@
             "id": "1",
             "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
             "title": "Red Sneakers",
-            "brand": "Nike"
+            "brand": "Nike",
+            "badge": ["new"]
         },
         {
             "id": "2",
             "image": "https://images.unsplash.com/photo-1607522370275-f14206abe5d3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1121&q=80",
             "title": "Red Sneakers",
-            "brand": "Convers"
+            "brand": "Convers",
+            "badge": ["top"]
         },
         {
             "id": "3",
             "image": "https://images.unsplash.com/photo-1608231387042-66d1773070a5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
             "title": "White Sneakers",
-            "brand": "Puma"
+            "brand": "Puma",
+            "badge": ["top", "new"]
         },
         {
             "id": "4",
@@ -28,7 +31,8 @@
             "id": "5",
             "image": "https://images.unsplash.com/photo-1549298916-b41d501d3772?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2012&q=80",
             "title": "Air Brown",
-            "brand": "Nike"
+            "brand": "Nike",
+            "badge": ["new"]
         },
         {
             "id": "6",
@@ -40,13 +44,15 @@
             "id": "7",
             "image": "https://images.unsplash.com/photo-1562183241-b937e95585b6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=765&q=80",
             "title": "Gray Shoe",
-            "brand": "Adidas"
+            "brand": "Adidas",
+            "badge": ["top"]
         },
         {
             "id": "8",
             "image": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
             "title": "Airforce",
-            "brand": "Nike"
+            "brand": "Nike",
+            "badge": ["top", "new"]
         },
         {
             "id": "9",
@@ -58,7 +64,8 @@
             "id": "10",
             "image": "https://images.unsplash.com/photo-1617606002806-94e279c22567?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
             "title": "Black-Red Sneakers",
-            "brand": "Convers"
+            "brand": "Convers",
+            "badge": ["top", "new"]
         },
         {
             "id": "11",
@@ -70,19 +77,22 @@
             "id": "12",
             "image": "https://images.unsplash.com/photo-1575537302964-96cd47c06b1b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
             "title": "Air Jordan Red",
-            "brand": "Nike"
+            "brand": "Nike",
+            "badge": ["top", "new"]
         },
         {
             "id": "13",
             "image": "https://images.unsplash.com/photo-1584735175315-9d5df23860e6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
             "title": "Dunk",
-            "brand": "Nike"
+            "brand": "Nike",
+            "badge": ["new"]
         },
         {
             "id": "14",
             "image": "https://images.unsplash.com/photo-1600269452121-4f2416e55c28?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=765&q=80",
             "title": "Airforce white",
-            "brand": "Nike"
+            "brand": "Nike",
+            "badge": ["top"]
         },
         {
             "id": "15",
@@ -94,13 +104,15 @@
             "id": "16",
             "image": "https://images.unsplash.com/photo-1539185441755-769473a23570?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80",
             "title": "Rev lite",
-            "brand": "New Balance"
+            "brand": "New Balance",
+            "badge": ["new"]
         },
         {
             "id": "17",
             "image": "https://images.unsplash.com/flagged/photo-1556637640-2c80d3201be8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
             "title": "White shoes",
-            "brand": "Adidas"
+            "brand": "Adidas",
+            "badge": ["top", "new"]
         },
         {
             "id": "18",
@@ -118,7 +130,8 @@
             "id": "20",
             "image": "https://images.unsplash.com/photo-1606753930828-fdcc943a273e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
             "title": "Orange Sneakers",
-            "brand": "Convers"
+            "brand": "Convers",
+            "badge": ["top"]
         },
         {
             "id": "21",
@@ -130,13 +143,53 @@
             "id": "22",
             "image": "https://images.unsplash.com/photo-1605408499391-6368c628ef42?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
             "title": "Legend Essential 2",
-            "brand": "Nike"
+            "brand": "Nike",
+            "badge": ["top"]
         },
         {
             "id": "23",
             "image": "https://images.unsplash.com/photo-1533681018184-68bd1d883b97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1331&q=80",
             "title": "Air Jordan 13s",
             "brand": "Nike"
+        },
+        {
+            "id": "24",
+            "image": "https://images.unsplash.com/photo-1603191659812-ee978eeeef76?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+            "title": "Brown Shoe",
+            "brand": "Bond Street",
+            "badge": ["top"]
+        },
+        {
+            "id": "25",
+            "image": "https://images.unsplash.com/photo-1613972798457-45fc5237ae32?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+            "title": "Black Ultraboost",
+            "brand": "Adidas"
+        },
+        {
+            "id": "26",
+            "image": "https://images.unsplash.com/photo-1579446565308-427218a2c60e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1025&q=80",
+            "title": "Disraptor White",
+            "brand": "FILA",
+            "badge": ["top"]
+        },
+        {
+            "id": "27",
+            "image": "https://images.unsplash.com/photo-1557461761-c7c2b7a5fa97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=765&q=80",
+            "title": "Black Sneakers",
+            "brand": "Nike"
+        },
+        {
+            "id": "28",
+            "image": "https://images.unsplash.com/photo-1465453869711-7e174808ace9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1176&q=80",
+            "title": "Encap",
+            "brand": "New Balance"
+        },
+        {
+            "id": "29",
+            "image": "https://images.unsplash.com/photo-1604867896102-9993f537f22c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80",
+            "title": "Gelsaga",
+            "brand": "New Balance",
+            "badge": ["top", "new"]
         }
     ]
 }

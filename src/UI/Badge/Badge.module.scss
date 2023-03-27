@@ -1,0 +1,22 @@
+.badge {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+
+    & svg {
+        width: 30px;
+        height: 30px;
+        color: var(--font-color-inverted);
+    }
+}
+
+.new {
+    background: var(--success);
+}
+
+.top {
+    background: var(--danger);
+}

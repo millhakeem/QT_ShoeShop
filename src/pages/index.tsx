@@ -1,8 +1,6 @@
-import { ProductCard } from '@/components/ProductCard/ProductCard';
 import { API } from '@/helpers/api';
 import { withLayout } from '@/layout/Layout';
 import { ProductGridWithPagination } from '@/pageComponents/ProductGridWithPagination/ProductGridWithPagination';
-import cls from '@/styles/Home.module.scss';
 import { Product } from '@/types';
 import { Container } from '@/UI/Container/Container';
 import axios from 'axios';

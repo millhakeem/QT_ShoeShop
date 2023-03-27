@@ -2,6 +2,7 @@ import { classNames } from '@/helpers/classNames';
 import { imageLoader } from '@/helpers/imageLoader';
 import { Product } from '@/types';
 import { Button, Card } from '@/UI';
+import { Badge, BadgeVariant } from '@/UI/Badge/Badge';
 import Image from 'next/image';
 import { memo } from 'react';
 
@@ -28,13 +29,23 @@ export const ProductCard = memo((props: ProductCardProps) => {
                     fill
                     sizes='270'
                 />
-                {/* {product.badge && <Badge text={product.badge} />} */}
             </div>
             <div className={cls.cardCaption}>
                 <h4 className={cls.captionTitle}>{product.title}</h4>
                 <span className={cls.captionBrand}>от: {product.brand}</span>
             </div>
-            <Button className={cls.cardButton}>В корзину</Button>
+            <div className={cls.cardFooter}>
+                <div className={cls.badge_container}>
+                    {product.badge &&
+                        product.badge?.map((b) => (
+                            <Badge
+                                key={b}
+                                type={b as BadgeVariant}
+                            />
+                        ))}
+                </div>
+                <Button className={cls.cardButton}>В корзину</Button>
+            </div>
         </Card>
     );
 });

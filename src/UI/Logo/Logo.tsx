@@ -1,5 +1,10 @@
-import React from 'react';
+import { classNames } from '@/helpers/classNames';
+import cls from './Logo.module.scss';
 
-export const Logo = () => {
-    return <h1>Shoes Shop</h1>;
+interface LogoProps {
+    className?: string;
+}
+
+export const Logo = ({ className }: LogoProps) => {
+    return <h1 className={classNames(cls.logo, {}, [className])}>Shoes Shop</h1>;
 };

@@ -1,0 +1,17 @@
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    height: 70px;
+    width: 100%;
+    margin-bottom: 40px;
+    background: var(--background-color-inverted);
+    color: var(--font-color-inverted);
+}
+
+.header_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}

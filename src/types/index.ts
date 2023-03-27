@@ -3,5 +3,5 @@ export interface Product {
     title: string;
     brand: string;
     image: string;
-    badge?: string;
+    badge?: string[];
 }

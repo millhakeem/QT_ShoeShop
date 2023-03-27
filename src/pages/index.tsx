@@ -1,11 +1,19 @@
+import { ProductCard } from '@/components/ProductCard/ProductCard';
 import { API } from '@/helpers/api';
+import { withLayout } from '@/layout/Layout';
+import { ProductGridWithPagination } from '@/pageComponents/ProductGridWithPagination/ProductGridWithPagination';
 import cls from '@/styles/Home.module.scss';
 import { Product } from '@/types';
+import { Container } from '@/UI/Container/Container';
 import axios from 'axios';
 import { GetStaticProps } from 'next';
 import Head from 'next/head';
 
-export default function Home({ products }: HomeProps) {
+interface HomeProps extends Record<string, unknown> {
+    products: Product[];
+}
+
+function Home({ products }: HomeProps) {
     return (
         <>
             <Head>
@@ -23,14 +31,16 @@ export default function Home({ products }: HomeProps) {
                     href='/favicon.ico'
                 />
             </Head>
-            <main className={cls.main}>
-                {products?.map((product) => (
-                    <div key={product.id}>{product.title}</div>
-                ))}
+            <main>
+                <Container>
+                    <ProductGridWithPagination products={products} />
+                </Container>
             </main>
         </>
     );
 }
+
+export default withLayout(Home);
 
 export const getStaticProps: GetStaticProps<HomeProps> = async () => {
     const { data: products } = await axios.get<Product[]>(API.product.getProducts);
@@ -41,7 +51,3 @@ export const getStaticProps: GetStaticProps<HomeProps> = async () => {
         },
     };
 };
-
-interface HomeProps extends Record<string, unknown> {
-    products: Product[];
-}

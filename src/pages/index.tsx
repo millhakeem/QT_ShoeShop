@@ -1,8 +1,8 @@
+import { Container } from '@/UI/Container/Container';
 import { API } from '@/helpers/api';
 import { withLayout } from '@/layout/Layout';
 import { ProductGridWithPagination } from '@/pageComponents/ProductGridWithPagination/ProductGridWithPagination';
 import { Product } from '@/types';
-import { Container } from '@/UI/Container/Container';
 import axios from 'axios';
 import { GetStaticProps } from 'next';
 import Head from 'next/head';
